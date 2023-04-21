@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <title>Daflogui Cake</title>
+</head>
+<body>
+    <header>
+    <div>
+        <nav>
+            <div>
+            <a href="./index.html">Home</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./information.html">More Information</a>
+            <a href="#">Benefits and Tips</a>
+            <a href="#">Raffle</a>
+            </div>
+            <img id="logo" src="./images/logo.png" alt="logo">
+        </nav>
+    </div>
+    </header>
+
+    <section class="tituloraffle">
+        <h1>Raffle</h1>
+    </section>
+    <section class="subraffle">
+        <h2>You can participate in a raffle. The prize is a coffee pot.</h2>
+    </section>
+    <div class="imgraffle">
+        <img class="imgraffle1" src="./images/heart-coffee.jpg" alt="">
+        <img class="imgraffle2" src="./images/cup-w-coffee.jpg" alt="">
+    </div>
+
+    <form action="./show_data.html" method="get">
+    <fieldset class="formulario">
+
+    <fieldset class="datospersonales">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="first name"> 
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="last name">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+    </fieldset>
+
+    <fieldset class="coffeepot">
+    <label for="colorcoffee">What color would you like the coffee pot:</label>
+    <select name="color" id="colorcoffee">
+        <option value="">Please choose an option</option>
+        <option value="black">black</option>
+        <option value="red">red</option>
+        <option value="white">white</option>
+        <option value="blue">blue</option>
+        <option value="brown">brown</option>
+        <option value="gold">gold</option>
+    </select>
+
+    <label for="place">Country:</label>
+    <select name="country" id="place">
+        <option value="">Please choose an option</option>
+        <option value="argentina">Argentina</option>
+        <option value="estados unidos">Estados Unidos</option>
+        <option value="chile">Chile</option>
+        <option value="mexico">Mexico</option>
+        <option value="colombia">Colombia</option>
+        <option value="venezuela">Venezuela</option>
+    </select>
+    </fieldset>
+    
+    <fieldset class="pay">
+    <legend>Payment Options:</legend>
+        <input type="radio" id="cash" name="pay" value="c">
+        <label for="cash">Cash</label>
+
+        <input type="radio" id="credit" name="pay" value="c">
+        <label for="credit">Credit Cards</label>
+
+        <input type="radio" id="debit" name="pay" value="d">
+        <label for="debit">Debit Cards</label>
+            
+    </fieldset>
+    <fieldset class="services">
+        <label for="serv">Services</label>
+        <textarea name="services" id="serv" cols="30" rows="10" ></textarea>
+    </fieldset>
+    <fieldset class="conditions">
+        <label for="tc">I accept terms and conditions</label>
+        <input type="checkbox" id="tc" name="termsconditions" value="terms-and-conditions"> 
+    </fieldset>
+        <input class="send" type="submit" value="Send">
+    </fieldset>
+    </form>
+
+    <footer class="mapa">
+        <iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225470.3451327296!2d-82.61909485494512!3d27.994687488217785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1681956969769!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+
+</body>
+</html>

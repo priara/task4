@@ -1,0 +1,925 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+  
+}
+
+body{
+    background-image: url(./images/fondo\ coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#logo{
+    width: 50px;
+    height: 8vh;
+    background-color: burlywood;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    border-bottom: rgba(210, 105, 30, 0.478);
+ 
+}
+nav a{
+    font-weight: 800;
+    font-size: 25px;
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(210, 105, 30, 0.378);
+}
+nav a:hover{
+    background-color: rgba(210, 105, 30, 0.309);
+    border-radius: 3px;
+    padding: 3rem;
+}
+.titulo{
+    text-align: center;
+    color: darkgreen;
+    font-size: 40px;
+    font-style: oblique;
+}
+.subtitulo{
+    text-align: center;
+    color: forestgreen;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+main div{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    margin-bottom: 5rem;
+    
+}
+
+#chicsirviendocafe{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    width: 50vw;
+    font-size: 20px;
+    color: darkgreen;
+    font-style: oblique;
+    margin-left: 20rem;
+    margin-top: 5rem;
+    font-weight: 800;
+
+}
+.titulopag2{
+    text-align: center;
+    color: darkgreen;
+    font-size: 40px;
+    font-style: oblique;
+}
+.subtitulopag2{
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.primero{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    height: 50vh;
+    width: 70vw;
+}
+.parrafo1{
+    height: 10rem;
+    width: 15rem;
+    text-align: center;
+    color: darkgreen;
+    background-color: rgba(210, 105, 30, 0.15);
+}
+.parrafo2{
+    height: 10rem;
+    width: 15rem;
+    text-align: center;
+    color: darkgreen;
+    background-color: rgba(210, 105, 30, 0.15);
+}
+.segundo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    height: 50vh;
+    width: 70vw;
+}
+
+div img{
+    border-radius: 5rem
+}
+.tercero{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    font-size: 20px;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    height: 50vh;
+    width: 70vw;
+}
+.parrafo3{
+    height: 10rem;
+    width: 15rem;
+    text-align: center;
+    color: darkgreen;
+    background-color: rgba(210, 105, 30, 0.15);
+}
+.titulopag3{
+    text-align: center;
+    color: darkgreen;
+    font-size: 40px;
+    font-style: oblique;
+}
+.subtitulopag3{
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.imagenpag3{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    height: 85vh;
+    margin-top: 2rem;
+    margin-left: 16rem;
+    border-radius: 5rem;
+
+}
+.parrafopag3{
+    height: 10vh;
+    width: 80vw;
+    color: darkgreen;
+    background-color: rgba(210, 105, 30, 0.15);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mailytel{
+    height: 5vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    color: darkgreen;
+    background-color: rgba(210, 105, 30, 0.15);
+}
+
+.titul{
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.sub{
+    text-align: center;
+    color: darkgreen;
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+tr, th, td{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 40vw;
+    height: 90vh;
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: darkgreen;
+    background-color: rgba(210, 105, 30, 0.15);
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 20px;
+}
+thead{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(14, 79, 14);
+}
+.titulopag5{
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.subtitulopag5{
+    text-align: center;
+    color: darkgreen;
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.cajita1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    font-size: 1.3rem;
+}
+.imgcajita1{
+    width: 30rem;
+}
+.cajita2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    font-size: 1.3rem;
+}
+.cajita3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+    width: 25rem;
+    font-size: 1.3rem;
+    margin-right: 10rem;
+    color: darkgreen;
+    font-style: oblique;
+    font-weight: 600;
+    background-color: rgba(210, 105, 30, 0.15);
+}
+.cajita4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+    width: 25rem;
+    font-size: 1.3rem;
+    margin-right: 10rem;
+    color: darkgreen;
+    font-style: oblique;
+    font-weight: 600;
+    background-color: rgba(210, 105, 30, 0.15);
+}
+.imgcajita2{
+    width: 30rem;
+    margin-right: 3rem;
+}
+.imgraffle1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    font-size: 1.3rem;
+    border-radius: 3rem;
+    width: 30rem;
+    height: 20rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.imgraffle2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    border-radius: 3rem;
+    width: 30rem;
+    height: 20rem;
+    margin-top: 5rem;
+    margin-bottom: 12rem;
+    margin-left: 5rem;
+}
+.tituloraffle{
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.subraffle{
+    text-align: center;
+    color: darkgreen;
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 50rem;
+    margin-top: -55rem;
+    width: 30vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    color: rgb(14, 72, 14);
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+textarea{
+    resize:none;
+}
+.datospersonales{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 25vh;
+    margin-top: 1rem;
+
+    
+}
+.coffeepot{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 15vh;
+    margin-top: 1rem;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vh;
+    margin-top: 1rem;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 10vh;
+    margin-top: 1rem;
+}
+.conditions{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    width: 30vw;
+    height: 5vh;
+    margin-top: 8rem;
+}
+.send{
+    height: 8vh;
+    width: 7vw;
+    margin-top: 3rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.mapa{
+    height: 45vh;
+    width: 100vw;
+    margin-left: -1rem;
+    border-style: dotted;
+    margin-top: 5rem;
+}
+.mapita{
+    height: 40vh;
+    margin-right: 45rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    img {
+        width: 15rem;
+        height: 15rem; 
+        margin-top: 2rem;
+    }
+    nav a{
+        height: 3vh;
+        width: 16vw;
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #chicsirviendocafe{
+        height: 7rem;
+        width: 10rem;
+        margin-left: 5.5rem;
+        margin-top: -32rem;
+        font-size: 1rem;
+        display: flex;
+        margin-bottom: 20rem;
+    }
+    .subtitulo{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+    .titulo{
+        margin-top: 1rem;
+        font-size: 1.8rem;
+    }
+    .mapita{
+        height: 20rem;
+        width: 20rem;
+        margin-top: -1rem;
+        padding: 2rem;
+    }
+    .mapa{
+        height: 18rem;
+        width: 19rem;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    #logo{
+        margin-top: 0.5rem;
+        height: 6vh;
+    }
+    div img{
+        height: 20vh;
+        width: 60vw;
+    }
+    .helado{
+        height: 7rem;
+        margin-left: -1rem;
+        width: 10rem;
+        margin-top: 1rem;  
+    }
+    .primero{
+        height: 20vh;
+        width: 18rem;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    .parrafo1{
+        font-size: 12px;
+        width: 40vw;
+        height: 7rem;
+        margin-top: 1rem;
+    }
+    
+    .segundo{
+        height: 20vh;
+        width: 19rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .parrafo2{
+        font-size: 12px;
+        width: 40vw;
+        height: 7rem;
+        margin-top: 1rem;
+    }
+    .imagenpag22{
+        height: 7rem;
+        margin-left: -1rem;
+        width: 10rem;
+        margin-top: 1rem;
+    }
+    .tercero{
+        height: 20vh;
+        width: 19rem;
+        margin-top: 3rem;
+        margin-left: 0.5rem;
+    }
+    .parrafo3{
+        font-size: 12px;
+        width: 8rem;
+        height: 8rem;
+        margin-top: 1rem;
+
+    }
+    .textopag23{
+        width: 7rem;
+    }
+    .imagenpag23{
+        height: 7rem;
+        margin-left: -1rem;
+        width: 10rem;
+        margin-top: 1rem;
+    }
+    /* contact */
+    .titulopag3{
+        margin-top: 8rem;
+        font-size: 1.8rem;
+        margin-bottom: -8rem;
+
+    }
+    .subtitulopag3{
+        margin-top: 8rem;
+        font-size: 1.3rem;
+        margin-bottom: -8rem;
+    }
+    .imagenpag3{
+        height: 10rem;
+        margin-left: 3rem;
+        width: 15rem;
+        margin-top: 10rem;
+        
+    }
+    .parrafopag3{
+        font-size: 12px;
+        width: 12rem;
+        height: 7rem;
+        margin-top: 1rem;
+    }
+    .mailytel{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0.5rem;
+        width: 19rem;
+        height: 4rem;
+    }
+
+    /* information */
+    .titul{
+        margin-top: 8rem;
+        font-size: 1.8rem;
+    }
+    .sub{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    table{
+        border-collapse: collapse;
+        width: 10rem;
+        height: 20rem;
+        margin-left: 0.5rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        color: darkgreen;
+        background-color: rgba(210, 105, 30, 0.15);
+        font-weight: 600;
+        font-style: oblique;
+        font-size: 20px;
+    }
+    /* benefits and tips */
+    .titulopag5{
+        margin-top: 8rem;
+        font-size: 1.2rem;
+    }
+    .subtitulopag5{
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+    .cajita1{
+        height: 15rem;
+        width: 28rem;
+    }
+    .imgcajita1{
+        height: 7rem;
+        width: 10rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .cajita4{
+        height: 8rem;
+        width: 35vw;
+        font-size: 0.6rem;
+        margin-left: 1rem;
+    }
+    .cajita2{
+        height: 15rem;
+        width: 40rem;
+    }
+    .imgcajita2{
+        height: 8rem;
+        width: 10rem;
+        margin-top: 1rem;
+        margin-left: -10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cajita3{
+        height: 8rem;
+        width: 9rem;
+        font-size: 0.6rem;
+        margin-left: -23rem;
+    }
+    /* raffle */
+    .tituloraffle{
+        margin-top: 8rem;
+        font-size: 1.2rem;
+    }
+    .subraffle{
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+    .imgraffle1{
+        height: 12rem;
+        width: 14rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    .imgraffle2{
+        height: 12rem;
+        width: 14rem;
+        margin-top: 2rem;
+        margin-bottom: 18rem;
+        margin-left: 3rem;
+    }
+    .formulario{
+        height: 10rem;
+        width: 20rem;
+        margin-left: 3rem;
+        margin-top: 5rem;
+        margin-bottom: 16rem;
+    }
+    .conditions{
+        display: flex;
+        flex-direction: row;
+    }
+    .send{
+        width: 5rem;
+        display: flex;
+        margin-top: 3rem;
+        margin-left: -5rem;
+    }
+}   
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+    .people{
+        height: 20rem;
+    }
+    nav a{
+        height: 3vh;
+        width: 16vw;
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #chicsirviendocafe{
+        height: 7rem;
+        width: 15rem;
+        margin-left: 18rem;
+        margin-top: -40rem;
+        font-size: 1rem;
+        margin-bottom: 20rem;
+    }
+    .parrafochica{
+        width: 20rem;
+        height: 50rem;
+    }
+    /* about us */
+    .subtitulo{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+    .titulo{
+        margin-top: 1rem;
+        font-size: 1.8rem;
+    }
+    .mapita{
+        height: 20rem;
+        width: 20rem;
+        margin-top: -1rem;
+        padding: 2rem;
+    }
+    .mapa{
+        height: 18rem;
+        width: 19rem;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    #logo{
+        margin-top: 0.5rem;
+        height: 6vh;
+    }
+    div img{
+        height: 20vh;
+        width: 60vw;
+    }
+    .helado{
+        height: 7rem;
+        margin-left: -1rem;
+        width: 10rem;
+        margin-top: 1rem;  
+    }
+    .primero{
+        height: 10vh;
+        width: 18rem;
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+    .parrafo1{
+        font-size: 12px;
+        width: 40vw;
+        height: 7rem;
+        margin-top: 1rem;
+    }
+    
+    .segundo{
+        height: 10vh;
+        width: 19rem;
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+    .parrafo2{
+        font-size: 12px;
+        width: 40vw;
+        height: 7rem;
+        margin-top: 1rem;
+    }
+    .imagenpag22{
+        height: 7rem;
+        margin-left: -1rem;
+        width: 10rem;
+        margin-top: 1rem;
+    }
+    .tercero{
+        height: 20vh;
+        width: 19rem;
+        margin-top: 3rem;
+        margin-left: 5rem;
+    }
+    .parrafo3{
+        font-size: 12px;
+        width: 8rem;
+        height: 8rem;
+        margin-top: 1rem;
+
+    }
+    .textopag23{
+        width: 7rem;
+    }
+    .imagenpag23{
+        height: 7rem;
+        margin-left: -1rem;
+        width: 10rem;
+        margin-top: 1rem;
+    }
+    /* contact */
+    .titulopag3{
+        margin-top: 3rem;
+        font-size: 1.8rem;
+        margin-bottom: -8rem;
+
+    }
+    .subtitulopag3{
+        margin-top: 9rem;
+        font-size: 1.3rem;
+        margin-bottom: -8rem;
+    }
+    .imagenpag3{
+        height: 15rem;
+        margin-left: 14rem;
+        width: 22rem;
+        margin-top: 10rem;
+    }
+    .parrafopag3{
+        font-size: 16px;
+        width: 20rem;
+        height: 7rem;
+        margin-top: 1rem;
+        margin-left: 16rem;
+    }
+    .mailytel{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 16rem;
+        width: 19rem;
+        height: 3rem;
+    }
+
+    /* information */
+    .titul{
+        margin-top: 3rem;
+        font-size: 1.8rem;
+        margin-left: 2rem;
+    }
+    .sub{
+        margin-top: 1rem;
+        font-size: 1rem;
+        margin-left: 2rem;
+    }
+    table{
+        border-collapse: collapse;
+        width: 15rem;
+        height: 25rem;
+        margin-left: 15rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        color: darkgreen;
+        background-color: rgba(210, 105, 30, 0.15);
+        font-weight: 600;
+        font-style: oblique;
+        font-size: 20px;
+    }
+    /* benefits and tips */
+    .titulopag5{
+        margin-top: 4rem;
+        font-size: 1.5rem;
+    }
+    .subtitulopag5{
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+    .cajita1{
+        height: 15rem;
+        width: 28rem;
+        margin-left: 15rem;
+    }
+    .imgcajita1{
+        height: 8rem;
+        width: 10rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .cajita4{
+        height: 8rem;
+        width: 35vw;
+        font-size: 0.6rem;
+        margin-left: 2rem;
+    }
+    .cajita2{
+        height: 15rem;
+        width: 40rem;
+        margin-left: 9rem;
+    }
+    .imgcajita2{
+        height: 8rem;
+        width: 10rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cajita3{
+        height: 8rem;
+        width: 9rem;
+        font-size: 0.6rem;
+        margin-left: -10rem;
+    }
+    /* raffle */
+    .tituloraffle{
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+    .subraffle{
+        margin-top: 1rem;
+        font-size: 0.7rem;
+    }
+    .imgraffle1{
+        height: 12rem;
+        width: 14rem;
+        margin-top: 5rem;
+        margin-left: 3rem;
+    }
+    .imgraffle2{
+        height: 12rem;
+        width: 14rem;
+        margin-top: 2rem;
+        margin-bottom: 18rem;
+        margin-left: 3rem;
+    }
+    .formulario{
+        height: 10rem;
+        width: 20rem;
+        margin-left: 25rem;
+        margin-top: -28rem;
+        margin-bottom: 16rem;
+    }
+    .conditions{
+        display: flex;
+        flex-direction: row;
+    }
+    .send{
+        width: 5rem;
+        display: flex;
+        margin-top: 3rem;
+        margin-left: -5rem;
+    }
+}
